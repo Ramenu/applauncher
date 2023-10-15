@@ -1,0 +1,12 @@
+[package]
+    name = "applauncher"
+    debug_build = true
+	deps = [
+		"gtk+-3.0"
+	]
+    
+[compiler]
+    compiler = "g++"
+
+[misc]
+	static_analysis_enabled = true
