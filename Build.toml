@@ -4,9 +4,11 @@
 	deps = [
 		"gtk+-3.0"
 	]
+	disable_env = false
     
 [compiler]
     compiler = "g++"
 
 [misc]
 	static_analysis_enabled = true
+	harden = true
